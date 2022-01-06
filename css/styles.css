@@ -1,0 +1,301 @@
+:root {
+  /* ------------PRIMARY COLORS------------ */
+  --gradient1: hsl(6, 100%, 80%);
+  --gradient2: hsl(335, 100%, 65%);
+  --gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+
+  /* ------------NEUTRAL COLORS------------ */
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+
+  --white: hsl(0, 0%, 100%);
+
+  /* ------------NEUTRAL COLORS------------ */
+  --font: 'Raleway', sans-serif; /* 400, 700 */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.56rem;
+  max-width: 1440px;
+  min-height: 100vh;
+  font-family: var(--font);
+  font-size: 14px;
+  background: url('../assets/images/bg-mobile.png') top left no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 752px) {
+  body {
+    background: var(--very-dark-blue) url('../assets/images/bg-desktop.png') top
+      23.7rem center no-repeat;
+    padding-top: 11.67rem;
+    overflow: hidden;
+  }
+}
+
+/* ------------MAIN------------ */
+.main {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 6.4rem;
+}
+
+@media screen and (min-width: 752px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+}
+
+/* ------------CARD1------------ */
+.card1 {
+  margin-bottom: 1rem;
+  padding: 2.62rem;
+  height: 12.6rem;
+  background-color: var(--dark-blue);
+  border-radius: 0.6rem 6.5rem 0.6rem 0.6rem;
+}
+
+.card1__logo {
+  margin-bottom: 1.87rem;
+  width: 8.54rem;
+}
+
+.card1__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card1__icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--very-dark-blue);
+  border-radius: 0.6rem;
+}
+
+@media screen and (min-width: 752px) {
+  .card1 {
+    margin-bottom: 0;
+    padding-right: 8.35rem;
+  }
+}
+
+/* ------------CARD2------------ */
+.card2 {
+  position: relative;
+  padding: 2rem;
+  height: 10rem;
+  text-align: center;
+  background-color: var(--dark-blue);
+  border-radius: 0.6rem;
+}
+
+.card2__text {
+  margin-bottom: 1rem;
+  font-size: 1.02em;
+  font-weight: 400;
+  color: var(--pale-blue);
+}
+
+.card2__gigas {
+  font-weight: 700;
+}
+
+.card2__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  width: 100%;
+  height: 1.2rem;
+  background-color: var(--very-dark-blue);
+  border-radius: 0.6rem;
+}
+
+.card2__bar-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 0.2rem;
+  height: 0.87rem;
+  background: var(--gradient);
+  border-radius: 0.6rem;
+}
+
+.card2__bar-circle {
+  margin-right: 0.15rem;
+  width: 0.63rem;
+  height: 0.63rem;
+  background-color: var(--pale-blue);
+  border-radius: 3rem;
+}
+
+.card2__rated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.88em;
+  font-weight: 700;
+  color: var(--pale-blue);
+}
+
+@media screen and (min-width: 752px) {
+  .card2 {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    width: 540px;
+    height: 9.7rem;
+  }
+
+  .card2__text {
+    margin-bottom: 1.1rem;
+    padding-top: 0.5rem;
+    text-align: left;
+  }
+}
+
+/* ------------CARD3------------ */
+.card3 {
+  position: absolute;
+  bottom: -2.1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 55%;
+  height: 4.3rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.card3__number {
+  font-size: 2.9em;
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+.card3__text {
+  font-size: 0.87em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--grayish-blue);
+}
+
+@media screen and (min-width: 752px) {
+  .card3 {
+    bottom: 8rem;
+    left: calc(100% - 8.15rem);
+    width: 11.22rem;
+    height: 4.5rem;
+  }
+
+  .card3::after {
+    content: '';
+    position: absolute;
+    top: 3rem;
+    left: 9.35rem;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    z-index: -1;
+    height: 30px;
+    width: 30px;
+    background-color: var(--white);
+  }
+}
+
+/* ------------FOOTER------------ */
+.attribution {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--gradient1);
+}
+
+.attribution a {
+  color: var(--gradient2);
+}
+
+@media screen and (min-width: 752px) {
+  .attribution {
+    bottom: calc(100% - 48rem);
+  }
+}
