@@ -1,13 +1,13 @@
 # Frontend Mentor - Fylo data storage component solution
 
-:point_right: This is the [Fylo data storage component](aqui va el reto de frontendmentor) challenge on Frontend Mentor.
+:point_right: This is the [Fylo data storage component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n) challenge on Frontend Mentor.
 
 ## Overview
 
 ### Links
 
-:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](Aqui va tu solucion de frontendmentor) </br>
-:heavy_check_mark: My `Live` Site URL : [GitHub Pages](Aqui va tu solucion de github pages)
+:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-M6cvTgd-t) </br>
+:heavy_check_mark: My `Live` Site URL : [GitHub Pages](https://alexcarmonadev.github.io/fm23_fylo_data_storage_component/)
 
 Give a ⭐️ if you like this project!
 
@@ -24,6 +24,7 @@ Give a ⭐️ if you like this project!
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - _Cascading Style Sheets_
 - [BEM](http://getbem.com/) - _Block Element Modifier_
 - [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Author
 
